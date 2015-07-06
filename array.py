@@ -6,7 +6,7 @@ print reversed(ar)
 print sorted(ar)
 
 for i, val in enumerate(reversed(ar)):
-  print "The value in index {0} is {1}".format(i, val)
+  print "The value at index {0} is {1}".format(i, val)
 
 for i in ar[:]:
   if i == 8:
